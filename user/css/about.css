@@ -1,0 +1,209 @@
+.head {
+
+    color: #ff1a75;
+    padding: 10px 20px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.head:hover {
+    color: #000;
+    box-shadow: #f5c6d8;
+}
+
+.head- {
+    text-align: center;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.aboutshop {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    display: inline-block;
+    width: 700px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.about-head {
+    color: #ff1a75;
+    font-size: 30px;
+}
+
+.about-text:hover {
+    color: #f70867;
+}
+
+.about-img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0px #ff1a75;
+
+}
+
+.whyshop {
+    display: block;
+    margin: 50px auto;
+    color: #000;
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid #faf8f9;
+    padding: 50px 20px;
+    background-color: #f5c6d8;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px #ff1a75;
+}
+
+.whyshop:hover {
+    box-shadow: 0 0 20px 1px #ff1a75;
+
+
+}
+
+.btns {
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.buot {
+    display: flex;
+    background-color: #fff;
+    border: none;
+    height: 80px;
+    width: 350px;
+    box-shadow: 0 0 5px 0px #ff1a75;
+}
+
+.buot:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px #ff1a75;
+    border-radius: 50px;
+}
+
+.icon {
+    display: inline;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.d-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.text {
+    font-family: "Roboto Condensed", sans-serif;
+    
+    font-size: 18px;
+
+
+}
+.icon1 {
+    display:flex;
+    direction: row;
+    justify-content: space-around;
+    border-radius:50%;
+    border: 1px solid  salmon;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    font-size: 20px;
+  }
+  .p{
+    font-family: "Roboto Condensed", sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn1{
+    padding: 10px 20px;
+    margin: 10px 350px;
+    border: 1px solid rgb(252, 248, 5);
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .col-review{
+    font-family: "Roboto Condensed", sans-serif;
+    border-radius: 5px 50px 5px 50px;
+    display: block;
+    margin: 30px auto;
+    position: relative;
+
+    width: 300px;
+    border: 0px solid #afafaf;;
+    box-shadow: 0 0 5px 0px #f70867;
+    height: 300px;
+  }
+  .col-review:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 14px 0px #f878ab;
+  
+  }
+  .d-flex{
+    justify-content: center;
+    align-items: center;
+  }
+  .find{
+  
+    text-decoration: none;
+    font-size: 36px;
+    font-family: "Roboto Condensed", sans-serif;
+  
+    margin-left: 10px;
+  }
+  .rating-img{
+    height: 150px;
+    width: 150px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+  .flex{
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .text{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+  justify-content: center;
+  
+  
+  }
+ .username{
+    position: absolute;
+    right: 60px;
+    top:45px;
+ }
+ .best-product{
+    display: flex;
+ }
+  
+.best-img{
+    height: 150px;
+    width: 200px;
+  }

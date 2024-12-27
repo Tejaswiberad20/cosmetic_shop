@@ -1,0 +1,158 @@
+body {
+    background: url('../imges/background.avif');
+    height: 500px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(240, 204, 228);
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.background {
+
+    background-color: #fff;
+    box-shadow: 0 0 5px 1px gray;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #f15398;
+    text-underline-position: below;
+}
+
+.background-head {}
+
+.head {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #f15398;
+    text-align: start;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+.text {
+    width: 450px;
+    color: #000;
+    text-align: start;
+    margin-left: 30px;
+}
+
+.text:hover {
+    color: #f15398;
+}
+
+.head-img {
+    transform: rotateX();
+}
+
+.imghead {
+    background-color: #f7d0e1;
+    box-shadow: 0 0 3px 1px #f15398;
+}
+
+.head-btn {
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    background-color: #f15398;
+    color: #fff;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+
+.head-btn:hover {
+    box-shadow: 0 0 10px 1px #f15398;
+}
+
+.head1 {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f15398;
+    text-align: center;
+}
+
+.head:hover {
+    color: #000;
+}
+
+.h {
+    margin-top: 100px;
+    font-size: 66px;
+    text-align: start;
+    margin-left: 50px;
+}
+
+.h2 {
+    position: absolute;
+    bottom: 10px;
+}
+
+.like-img {
+    position: absolute;
+    top: 10px;
+    height: 30px;
+}
+
+.card {
+    border: 5px solid #f7d4e3;
+    box-shadow: 0 0 6px 1px gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card:hover {
+    border-radius: 0px;
+
+}
+
+.img {
+    height: 50px;
+}
+
+.cate-head{
+    font-style: normal;
+    color: #f15398;
+    text-align: start; 
+    margin-left: 30px;
+}
+.Category-card{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.Category-img{
+    display: inline-block;
+    margin-top: 10px;
+    height: 300px;
+    border-radius:5px ;
+    width: 300px;
+}
+.Category-img:hover{
+box-shadow: 0 0 15px 0px #ff1a75;
+}
+.catimg{
+    position: relative;
+}
+
+.Category{
+    position: absolute;
+    left: 0px;
+    top:30px;
+    color: #f15398;
+    background-color: #fff;
+    padding: 5px;
+    border-radius:0px 50px 50px 0px;
+}

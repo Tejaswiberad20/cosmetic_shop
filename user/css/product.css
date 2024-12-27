@@ -1,0 +1,65 @@
+.head{
+    color: #ff1a75;
+    padding: 10px 20px;
+    text-align: center;
+}
+.head:hover{
+    color: rgb(187, 80, 80);
+}
+.productimg{
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    position:relative;
+
+}
+.product-box{
+    width: 250px;
+    display: inline;
+    border-radius: 10px;
+    box-shadow:0 0 5px 0px #ff1a75;
+    margin: 20px;
+}
+.product-box:hover{
+    box-shadow:0 0 20px 1px #ee4f8f;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+}
+.productname{
+    color:#ff1a75;
+    text-align: start;
+}
+.btn{
+    display: block;
+    margin: 10px auto;
+    border:#ff1a75 solid 1px;
+    background-color: #ff1a75;
+    text-decoration: none;
+
+    color: #fff;
+}
+.btn:hover{
+    background-color: #ff1a75;
+    color: #fff;
+    box-shadow:0 0 20px 0px #ff1a75;
+}
+.h2 {
+    position: absolute;
+    bottom: 10px;
+}
+.Category{
+    position: absolute;
+    left: 0px;
+    top:10px;
+    color: #fdfcfd;
+    background-color: #d84884;
+    padding: 1px;
+    border-radius:0px 50px 50px 0px;
+
+}
+.link1{
+    text-decoration: none;
+}
+.product1{
+   display: inline;}
